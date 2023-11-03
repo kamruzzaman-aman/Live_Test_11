@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
 
-class WeatherInfoScreen extends StatefulWidget {
-  const WeatherInfoScreen({super.key});
+// ignore: must_be_immutable
+class WeatherInfoScreen extends StatelessWidget {
+   WeatherInfoScreen({super.key});
 
-  @override
-  State<WeatherInfoScreen> createState() => _WeatherInfoScreenState();
-}
-
-class _WeatherInfoScreenState extends State<WeatherInfoScreen> {
   List<Map<String, dynamic>> weatherInfo = [
     {
       "city": "New York",
